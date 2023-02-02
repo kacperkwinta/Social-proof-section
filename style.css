@@ -1,0 +1,101 @@
+:root {
+  --primary-one: hsl(300, 43%, 22%);
+  --primary-two: hsl(333, 80%, 67%);
+  --neutral-one: hsl(303, 10%, 53%);
+  --neutral-two: hsl(300, 24%, 96%);
+  --neutral-three: hsl(0, 0%, 100%);
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "League Spartan", sans-serif;
+}
+
+body {
+  font-size: 1.5rem;
+  box-sizing: border-box;
+}
+
+main {
+  margin: 15rem auto;
+}
+
+/* GENERAL */
+p {
+  line-height: 1.4;
+}
+
+/* SECTION HERO */
+.section-hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9.6rem;
+}
+
+.hero-text {
+  width: 45rem;
+}
+
+.hero-heading {
+  font-size: 6.2rem;
+  color: var(--primary-one);
+  margin-bottom: 2.4rem;
+}
+
+.hero-description {
+  color: var(--neutral-one);
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+
+.hero-imgs {
+  display: flex;
+  flex-direction: column;
+}
+
+.rating {
+  width: 45rem;
+  padding: 1.6rem 3.6rem;
+  border-radius: 8px;
+  background-color: hsl(300, 24%, 96%);
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.rating:nth-child(2) {
+  margin-top: 1.8rem;
+  margin-left: 4.8rem;
+}
+
+.rating:nth-child(3) {
+  margin-top: 1.8rem;
+  margin-left: 9.6rem;
+}
+
+.wrapper span {
+  color: var(--primary-one);
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+/* SECTION TESTIMONIALS */
+
+/* FOOTER */
+.attribution {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: var(--primary-two);
+}
