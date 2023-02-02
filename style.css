@@ -28,17 +28,23 @@ main {
   margin: 15rem auto;
 }
 
+/***********/
 /* GENERAL */
+/***********/
 p {
   line-height: 1.4;
 }
 
+/****************/
 /* SECTION HERO */
+/****************/
 .section-hero {
+  padding: 2.4rem;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 9.6rem;
+  margin-bottom: 4.8rem;
 }
 
 .hero-text {
@@ -82,18 +88,76 @@ p {
   margin-left: 9.6rem;
 }
 
-.wrapper span {
+.rating-text {
   color: var(--primary-one);
   font-weight: 700;
   font-size: 1.8rem;
 }
 
+/************************/
 /* SECTION TESTIMONIALS */
+/************************/
+.section-testimonials {
+  padding: 2.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+}
+
+.testimonial-box {
+  background-color: var(--primary-one);
+  padding: 3.6rem;
+  border-radius: 8px;
+  width: 35rem;
+}
+
+.testimonial-box:nth-child(2) {
+  margin-top: 2.4rem;
+}
+
+.testimonial-box:nth-child(3) {
+  margin-top: 4.8rem;
+}
+
+.testimonial-box .wrapper {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+  margin-bottom: 2.4rem;
+}
+
+.customer-img {
+  border-radius: 50%;
+  width: 3.6rem;
+}
+
+.customer-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.customer-name {
+  color: var(--neutral-three);
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.customer-verified {
+  color: var(--primary-two);
+  font-weight: 500;
+}
+
+.customer-sentence {
+  color: var(--neutral-three);
+  line-height: 1.5;
+}
 
 /* FOOTER */
 .attribution {
-  font-size: 1.4rem;
   text-align: center;
+  font-size: 1.4rem;
 }
 
 .attribution a {
