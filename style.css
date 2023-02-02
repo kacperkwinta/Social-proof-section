@@ -25,25 +25,20 @@ body {
 }
 
 main {
-  margin: 15rem auto;
-}
+  padding: 2.4rem;
 
-/***********/
-/* GENERAL */
-/***********/
-p {
-  line-height: 1.4;
+  max-width: 120rem;
+  margin: 15rem auto;
 }
 
 /****************/
 /* SECTION HERO */
 /****************/
 .section-hero {
-  padding: 2.4rem;
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 9.6rem;
+  justify-content: space-between;
+  gap: 1.2rem;
   margin-bottom: 4.8rem;
 }
 
@@ -61,6 +56,7 @@ p {
   color: var(--neutral-one);
   font-weight: 500;
   font-size: 1.8rem;
+  line-height: 1.5;
 }
 
 .hero-imgs {
@@ -98,10 +94,9 @@ p {
 /* SECTION TESTIMONIALS */
 /************************/
 .section-testimonials {
-  padding: 2.4rem;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   gap: 2.4rem;
 }
 
